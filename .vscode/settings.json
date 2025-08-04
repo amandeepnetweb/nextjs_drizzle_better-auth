@@ -1,18 +1,27 @@
 {
-    "cSpell.words": [
-        "betterauth",
-        "Contentful",
-        "extralight",
-        "neondatabase",
-        "neondb",
-        "nums",
-        "Pussing",
-        "Reinier",
-        "Rhyno",
-        "Shadcn",
-        "sonner",
-        "Turbopack",
-        "WCAG"
-    ],
-    "postman.settings.dotenv-detection-notification-visibility": false
+  "cSpell.words": [
+    "betterauth",
+    "Contentful",
+    "extralight",
+    "neondatabase",
+    "neondb",
+    "nums",
+    "Pussing",
+    "Reinier",
+    "Rhyno",
+    "Shadcn",
+    "sonner",
+    "Turbopack",
+    "WCAG"
+  ],
+  "postman.settings.dotenv-detection-notification-visibility": false,
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
